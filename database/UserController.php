@@ -7,7 +7,7 @@
  * @license MIT
  *
  * --------------------------------------------------------------------------
- * @__CLASSREPLACE__ @database_generator
+ * @UserController @database_generator
  * --------------------------------------------------------------------------
  *
  * Per ulteriori informazioni, consultare la documentazione originale online.
@@ -20,7 +20,7 @@
 use Core\Helper\MineTable as Table;
 use WHMCS\Database\Capsule as Database;
 
-class __CLASSREPLACE__ extends Table
+class UserController extends Table
 {
     /**
      * Automatic name, insert only column

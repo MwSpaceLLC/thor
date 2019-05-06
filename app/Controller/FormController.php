@@ -56,9 +56,15 @@ class FormController extends Controller
         }
     }
 
+    /**
+     *
+     */
     public function postDataTable()
     {
-        $demos = $this->table('DemoTable')->get();
+        $demos = $this
+            ->table('DemoTable')
+            ->get();
+
         $this
             ->assign('demos', $demos)
             ->display('Admin.formTable');

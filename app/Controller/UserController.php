@@ -21,6 +21,9 @@ use Core\Helper\MineController as Controller;
 
 class UserController extends Controller
 {
+    /**
+     * @param null $vars
+     */
     public function viewTemplate($vars = null)
     {
         $user = $this
@@ -28,7 +31,9 @@ class UserController extends Controller
             ->where('id', $vars->uid)
             ->first();
 
-        return $this->assign('user', $user)->display('Admin.userDetail');
+        return $this
+            ->assign('user', $user)
+            ->display('Admin.userDetail');
     }
 
     public function data()
