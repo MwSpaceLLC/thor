@@ -30,7 +30,7 @@
   "prefer-stable": false,
   "scripts": {
     "post-root-package-install": [
-      "@php -r \"rename(__DIR__.'/whmcs_addon.php',__DIR__.'/'.basename(__DIR__).'.php')\""
+      "@php -r \"rename(__DIR__.'/whmcs_addon.php',__DIR__.'/'.basename(__DIR__).'.php');\""
     ]
   }
 }
