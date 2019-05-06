@@ -8,12 +8,12 @@
   ],
   "license": "MIT",
   "require": {
-    "php": "^5.5",
-    "nikic/fast-route": "^2.0@dev",
-    "phpmailer/phpmailer": "*",
-    "symfony/console": "^4.3@dev",
-    "symfony/debug": "^4.3@dev",
-    "symfony/var-dumper": "^4.0"
+    "php": "^5.6",
+    "nikic/fast-route": "v1.x-dev",
+    "phpmailer/phpmailer": "6.0.x-dev",
+    "symfony/console": "3.4.x-dev",
+    "symfony/debug": "3.3.x-dev",
+    "symfony/var-dumper": "3.3.x-dev"
   },
   "config": {
     "optimize-autoloader": true,
