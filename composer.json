@@ -27,7 +27,7 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": false,
+  "prefer-stable": true,
   "scripts": {
     "post-root-package-install": [
       "@php -r \"rename(__DIR__.'/whmcs_addon.php',__DIR__.'/'.basename(__DIR__).'.php');\""
