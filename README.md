@@ -6,13 +6,12 @@
 > Login with SSH in your WHMCS project & Install Library with composer in module folder:
 
 `cd modules/addons/`
+🐉 awesome_addon is the name of the module. MUST BE alphabet: Example
 
 `composer create-project mwspace/thor awesome_addon @dev`
 
-🐉 awesome_addon is the name of the module. MUST BE alphabet: Example
-
 `composer create-project mwspace/thor mymodule @dev`
 
-`composer create-project mwspace/thor bestmodule @dev`
+`composer create-project mwspace/thor BEST_module @dev`
 
-`composer create-project mwspace/thor excelmodule @dev`
+`composer create-project mwspace/thor ExcelModule @dev`
