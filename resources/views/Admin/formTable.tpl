@@ -8,6 +8,7 @@
             {$alert} | <a href="{$modulelink}&form"> Go Back</a>
         </div>
     {/if}
+
     <table class="table">
         <thead>
         <tr>

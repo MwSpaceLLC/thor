@@ -16,8 +16,7 @@
 
                 <hr>
                 <div class="row text-right">
-                    <a href="{$baselink}/clientssummary.php?userid={$user->id}" type="button" class="btn btn-warning">Go
-                        Back</a>
+                    <a href="{$baselink}/clientssummary.php?userid={$user->id}" type="button" class="btn btn-warning">Go Back</a>
                 </div>
             </form>
         </div>
