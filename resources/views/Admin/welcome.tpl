@@ -2,6 +2,7 @@
 {extends file='Admin/layout.tpl'}
 
 {block name=body}
+
     <div class="container">
         <div class="jumbotron mt-3">
             <h1>{strtoupper($addonmodule)}</h1>

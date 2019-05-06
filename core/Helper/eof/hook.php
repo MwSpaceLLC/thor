@@ -9,8 +9,8 @@
 // * WHMCS Addon Skeleton for Developers with fast idea   *
 // * Copyright (c) MwSpace LLC 2019. All Rights Reserved, *
 // * Version WHMCS dev: 7.7.1 (7.7.1-release.1)           *
-// * VERSION Code: 1.0                                    *
-// * PHP REQUIRED. <7.00                                  *
+// * VERSION Code: ^1.1-beta                              *
+// * PHP REQUIRED: ^7.00                                  *
 // ********************************************************
 // * Email: www@mwspace.com                               *
 // * Website: http://mwspace.com                          *
@@ -59,21 +59,26 @@ if (function_exists('_il_exec')) {
 echo("Site error: the " . (php_sapi_name() == 'cli' ? 'ionCube' : '<a href="http://www.ioncube.com">ionCube</a>') . " PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit " . (php_sapi_name() == 'cli' ? 'get-loader.ioncube.com' : '<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>') . " for install assistance.\n\n");
 exit(199);
 ?>
-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
+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

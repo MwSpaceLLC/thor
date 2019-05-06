@@ -7,7 +7,7 @@
  * @license MIT
  *
  * --------------------------------------------------------------------------
- * @AdminHomepage @hook_generator
+ * @AdminAreaClientSummaryActionLinks @hook_generator
  * --------------------------------------------------------------------------
  *
  * Per ulteriori informazioni, consultare la documentazione originale online.
@@ -18,7 +18,9 @@
  *
  */
 
-class AdminHomepage
+use Core\Helper\MineHook as Hook;
+
+class AdminAreaClientSummaryActionLinks extends Hook
 {
     /**
      * @param $params
@@ -26,16 +28,21 @@ class AdminHomepage
      * int $priority, string|array|Closure $function
      *
      * For more detail,
-     * @see https://developers.whmcs.com/hooks-reference/client-area-interface/#AdminHomepage
+     * @see https://developers.whmcs.com/hooks-reference/client-area-interface/#AdminAreaClientSummaryActionLinks
      */
     public function output($params)
     {
         return function ($params) {
             try {
 
-                $addon = basename(dirname(__DIR__));
+                $rute = $this->adminModuleRoute("&user={$params['userid']}");
 
-                return 'U Have thor Clear Install <b> <i class="fab fa-whmcs"></i> <a href="addonmodules.php?module=' . $addon . '">Thor Addon</a></b>';
+                $return = array();
+
+                $return[] = '<a href="' . $rute . '"><i class="fab fa-whmcs"></i> See Detail User with Thor</a>';
+
+                return $return;
+
             } catch (Exception $e) {
 
                 // Consider logging or reporting the error.

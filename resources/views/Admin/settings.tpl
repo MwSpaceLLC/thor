@@ -2,6 +2,7 @@
 {extends file='Admin/layout.tpl'}
 
 {block name=body}
+
     <div class="container">
         <div class="jumbotron mt-12">
             <p class="lead">Fine <b>{$config->CompanyName}</b>! You are in Settings Page, go back in to
