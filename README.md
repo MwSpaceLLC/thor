@@ -7,12 +7,12 @@
 
 `cd modules/addons/`
 
-`composer create-project mwspace/thor @dev awesome_addon`
+`composer create-project mwspace/thor awesome_addon @dev`
 
 🐉 awesome_addon is the name of the module. MUST BE alphabet: Example
 
-`composer create-project mwspace/thor @dev mymodule`
+`composer create-project mwspace/thor mymodule @dev`
 
-`composer create-project mwspace/thor @dev bestmodule`
+`composer create-project mwspace/thor bestmodule @dev`
 
-`composer create-project mwspace/thor @dev excelmodule`
+`composer create-project mwspace/thor excelmodule @dev`
