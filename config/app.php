@@ -5,7 +5,7 @@
  * | Configuration Thor Addon
  * |--------------------------------------------------------------------------
  * | Other settings
- * @see https://developers.whmcs.com/addon-modules/configuration/
+ * | @see https://developers.whmcs.com/addon-modules/configuration/
  * |
  */
 

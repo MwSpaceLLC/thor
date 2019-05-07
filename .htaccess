@@ -1,0 +1,25 @@
+Order allow,deny
+Deny from all
+
+# For More Security !
+
+<Files .htaccess>
+ Order allow,deny
+ Deny from all
+</Files>
+<Files "thor">
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "composer.json">
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "composer.lock">
+  Order Allow,Deny
+  Deny from all
+</Files>
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>

@@ -7,18 +7,29 @@
 
 `$ php -i | grep ioncube`
 
-> Login with SSH in your WHMCS project & Install Library with composer in module folder:
+> If u Want to Learn More, You can go in the Official Site at <a href="https://thor.mwspace.com/">Thor Documentation</a>
 
-`$ cd modules/addons/`
+🏍 If u want install this addon skeleton now, :
 
-🐉 awesome_addon is the name of the module. MUST BE alphabet: Example
+> First, you must go in the addons directory in your WHMCS installation:
 
-`$ composer create-project mwspace/thor awesome_addon`
+`$ cd WHMCS/modules/addons`
 
-`$ composer create-project mwspace/thor Awesome_Addon`
+> You may also install Thor by issuing the Composer create-project command in your terminal:
 
-`$ composer create-project mwspace/thor AWESOME_ADDON`
+`$ composer create-project --prefer-dist mwspace/thor nameaddon`
 
-`$ composer create-project mwspace/thor AWESOMEADDON`
+> If u have any issue with repo version, u can try:
 
-`$ composer create-project mwspace/thor AwesomeAddon`
+`$ composer clearcache`
+
+> If u have any issue with repo version, u can try:
+
+`$ Please note that name of addon must be an alphadash_caracter!`
+
+✨ Now the plugin has been installed. U can go at <b>Setup >  Modules </b> and u can activate it!
+   The addon Have many Demo pages and u can see the basic setup for Work Correctly.
+
+
+
+##### please! read the doc first start with devvelopment.
