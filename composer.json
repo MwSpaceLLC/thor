@@ -4,16 +4,13 @@
   "description": "Make easy develop addon for WHMCS marketplace 😱",
   "keywords": [
     "whmcs",
-    "whmcs addon"
+    "whmcs addon",
+    "whmcs module"
   ],
   "license": "MIT",
   "require": {
-    "php": "^5.6",
-    "nikic/fast-route": "v1.x-dev",
-    "phpmailer/phpmailer": "6.0.x-dev",
-    "symfony/console": "3.4.x-dev",
-    "symfony/debug": "3.3.x-dev",
-    "symfony/var-dumper": "3.3.x-dev"
+    "php": ">=5.6",
+    "mwspace/thor-core": "^1.5"
   },
   "config": {
     "optimize-autoloader": true,
@@ -22,11 +19,9 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "app/",
-      "Core\\": "core/"
+      "App\\": "app/"
     }
   },
-  "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
     "post-root-package-install": [
