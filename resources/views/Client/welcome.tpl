@@ -1,3 +1,0 @@
-{* Smarty *}
-
-Hello, {$name}!
