@@ -10,7 +10,13 @@
   "license": "MIT",
   "require": {
     "php": ">=5.6",
-    "mwspace/thor-core": "^1.5"
+    "mwspace/thor-core": "^1.5",
+    "nikic/fast-route": "v1.*",
+    "phpmailer/phpmailer": "6.0.*",
+    "symfony/console": "3.4.*",
+    "symfony/debug": "3.3.*",
+    "symfony/var-dumper": "3.3.*",
+    "eftec/bladeone": "3.*"
   },
   "config": {
     "optimize-autoloader": true,

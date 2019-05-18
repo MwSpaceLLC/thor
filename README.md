@@ -23,9 +23,9 @@
 
 `$ composer clearcache`
 
-> If u have any issue with repo version, u can try:
+> Please note that name of addon must be an alphadash_caracter!`
 
-`$ Please note that name of addon must be an alphadash_caracter!`
+<hr>
 
 ✨ Now the plugin has been installed. U can go at <b>Setup >  Modules </b> and u can activate it!
    The addon Have many Demo pages and u can see the basic setup for Work Correctly.
