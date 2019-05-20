@@ -4,7 +4,7 @@
 
     <div class="container">
         <div class="jumbotron mt-3">
-            <form method="post" action="{$modulelink}&formPostData">
+            <form method="post" action="{{$modulelink}}&formPostData">
                 <h2>If u have clear install of Thor Addon, This are default data by ClientSummaryPage</h2>
                 <div class="row">
                     <p>{{$user->firstname}}</p>
