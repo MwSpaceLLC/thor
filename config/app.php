@@ -42,7 +42,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'author' => '<img src="/modules/addons/whmcs_addon/logo.png" width="25"> <b>Thor</b>',
+    'author' => '<img src="/modules/addons/' . basename(str_replace('config', '', dirname(__FILE__))) . '/logo.png" width="25"> <b>Thor</b>',
 
     /*
     |--------------------------------------------------------------------------
