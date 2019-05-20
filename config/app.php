@@ -25,7 +25,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'name' => 'Thor Addon Module',
+    'name' => basename(str_replace('config', '', dirname(__FILE__))) . ' - Thor',
 
     /*
     |--------------------------------------------------------------------------
@@ -33,8 +33,8 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'description' => 'This module provides an example for Thor Addon Module' .
-        'This is only package for @Developers',
+    'description' => 'This is a skeleton of the Thor mini framework for developing WHMCS add-ons. Read more at ' .
+        '<a href="https://thor.mwspace.com/docs" target="_blank">https://thor.mwspace.com/docs</a>',
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'author' => '<i class="fas fa-meteor"></i> Thor',
+    'author' => '<img src="/modules/addons/whmcs_addon/logo.png" width="25"> <b>Thor</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'version' => '1.0',
+    'version' => '1.8.5',
 
     /*
     |--------------------------------------------------------------------------
